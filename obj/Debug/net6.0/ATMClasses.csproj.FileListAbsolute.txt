@@ -1,0 +1,15 @@
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/ATMClasses.csproj.AssemblyReference.cache
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/ATMClasses.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/ATMClasses.AssemblyInfoInputs.cache
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/ATMClasses.AssemblyInfo.cs
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/ATMClasses.csproj.CoreCompileInputs.cache
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/bin/Debug/net6.0/ATMClasses
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/bin/Debug/net6.0/ATMClasses.deps.json
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/bin/Debug/net6.0/ATMClasses.runtimeconfig.json
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/bin/Debug/net6.0/ATMClasses.dll
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/bin/Debug/net6.0/ATMClasses.pdb
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/ATMClasses.dll
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/refint/ATMClasses.dll
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/ATMClasses.pdb
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/ATMClasses.genruntimeconfig.cache
+/Users/dsn/Desktop/Year 2 Uni Work/SEM 1/Intro to Software Eng/ATMClasses/ATMClasses/obj/Debug/net6.0/ref/ATMClasses.dll
