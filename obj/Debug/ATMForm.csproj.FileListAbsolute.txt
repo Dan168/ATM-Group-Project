@@ -1,0 +1,13 @@
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\bin\Debug\ATMForm.exe.config
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\bin\Debug\ATMForm.exe
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\bin\Debug\ATMForm.pdb
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.csproj.AssemblyReference.cache
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.Properties.Resources.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.csproj.GenerateResource.cache
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.csproj.CoreCompileInputs.cache
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.exe
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.pdb
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.AccountHome.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.ATMHome.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.Home.resources

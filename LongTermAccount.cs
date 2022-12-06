@@ -1,6 +1,12 @@
-public class LongTermAccount : Account
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ATMForm
 {
-    public LongTermAccount(int custId) : base(custId)
+    internal class LongTerm
     {
     }
 }

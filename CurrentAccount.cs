@@ -1,33 +1,35 @@
-public class CurrentAccount : Account
+﻿using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ATMForm
 {
-    private double overdraftLimit;
-    
-    public CurrentAccount(int custId) : base(custId)
+    internal class CurrentAccount : Account
     {
-        //we need to retrive the overdraft limit 
-        try
+        private double overdraftLimit;
+        public CurrentAccount(string custId) : base(custId)
         {
-            string[] csvLines = File.ReadAllLines("CUSTOMERS.csv");
-        
-            for (int i = 1; i < csvLines.Length; i++)
+            //we need to retrive the overdraft limit 
+            try
             {
-                string[] fields = csvLines[i].Split(",");
-                if (fields[0].Contains(Convert.ToString(custId)))
+                string[] csvLines = File.ReadAllLines("CUSTOMERS.csv");
+
+                for (int i = 1; i < csvLines.Length; i++)
                 {
-                    overdraftLimit = Convert.ToDouble(fields[11]);
+                    string[] fields = csvLines[i].Split(',');
+                    if (fields[0].Contains(Convert.ToString(custId)))
+                    {
+                        overdraftLimit = Convert.ToDouble(fields[11]);
+                    }
                 }
             }
-        }
-        catch
-        {
-            Console.WriteLine("We're sorry, something has gone wrong retrieving customer information. Please try again later.");
+            catch
+            {
+                Console.WriteLine("We're sorry, something has gone wrong retrieving customer information. Please try again later.");
+            }
         }
     }
-
-    public double GetOverdraftLimit()
-    {
-        return overdraftLimit;
-    }
-
-    
 }
