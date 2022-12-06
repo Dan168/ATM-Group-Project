@@ -1,2 +1,4 @@
-custID,Name,DOB,Email,PostCode,accountNumber,accountBalance,currentAccountNumber,currentAccount Balance
-1,dan,17/03/2003,askjdf,sdf,123143,100,1534,100
+cardNum,Pin,custID,locked
+4.74E+15,1234,1,FALSE
+4.61E+15,4321,2,FALSE
+5.65E+15,6666,3,FALSE
