@@ -96,6 +96,7 @@ namespace ATMForm
             {
                 AccountHome f1 = new AccountHome();
                 f1.Show();
+                this.Hide();
             }
             else
             {

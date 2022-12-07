@@ -1,3 +1,2 @@
-custID,Name,DOB,Email,PostCode,accountNumber,accountBalance,currentAccountNumber,currentAccountBalance,ExtendedAccountNumber,ExtendedAccountBalance,Overdraft limit
-1,sdf,sdf,sdf,sdf,100,100,100,100,100,100,100
-2,asf,asdf,sadf,asdf,100,100,100,100,100,100,100
+custID,Name,DOB,Email,PostCode,accountNumber,accountBalance,currentAccountNumber,currentAccountBalance,ExtendedAccountNumber,ExtendedAccountBalance,Overdraft limit,
+1,Dan,17/03/2003,dan@gmail.com,S1 44444,100,40,200,50,200,100,100,

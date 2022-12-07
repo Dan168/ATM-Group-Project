@@ -19,7 +19,8 @@ namespace ATMForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //open the admin panel (hasnt been made yet)
+            AdminLogin a1 = new AdminLogin();
+            a1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

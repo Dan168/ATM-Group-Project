@@ -11,3 +11,11 @@ C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.pdb
 C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.AccountHome.resources
 C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.ATMHome.resources
 C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.Home.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.Withdraw.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.Deposit.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.Transfer.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.AdminLogin.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.AdminPanel.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.custLookup.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.ChangeOD.resources
+C:\Users\c1009130\source\repos\ATMForm\ATMForm\obj\Debug\ATMForm.UnlockCard.resources

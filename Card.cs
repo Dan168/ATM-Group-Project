@@ -39,6 +39,7 @@ namespace ATMForm
             return this.pin;
         }
 
+        //LOOK AT THIS TOMMOROW
         public void LockCard()
         {
             string[] csvLinesLock = File.ReadAllLines("CARDS.csv");

@@ -43,6 +43,17 @@ namespace ATMForm
             }
         }
 
+        public double GetBalance(int accountType)
+        {
+            switch (accountType)
+            {
+                case 1: return this.accBalance;
+                case 2: return this.currentAccBalance;
+                case 3: return this.extendedAccBalance;
+            }
+            return 0;
+        }
+
         public void Withdraw(double amount, int accountType)
         //Change these so that the account type has to be selected ... instead of using virtual method in each class
         {
@@ -67,7 +78,7 @@ namespace ATMForm
                                 double newBalance = Convert.ToDouble(fields[6]) - amount;
                                 if (amount < 0)
                                 {
-                                    Console.WriteLine("Sorry, there is not enough funds in your account.");
+                                    MessageBox.Show("There isn't enough money in your account to complete this transaction. No money was withdrawn.");
                                     break;
                                 }
                                 else
@@ -80,11 +91,12 @@ namespace ATMForm
                         }
                         catch
                         {
-                            Console.WriteLine("Something has gone wrong withdrawing funds into the account. Please contact the bank.");
+                            MessageBox.Show("Something has gone wrong withdrawing funds into the account. Please contact the bank.");
                         }
                     }
                     File.Delete("CUSTOMERS.csv");
                     File.Move("temp.csv", "CUSTOMERS.csv");
+                    MessageBox.Show("Withdraw Complete");
                     break;
 
                 //Current account
@@ -112,7 +124,7 @@ namespace ATMForm
                                     double limitWithOD = Convert.ToDouble(fields[11]) - (Convert.ToDouble(fields[11]) * 2);
                                     if (newBalance < limitWithOD)
                                     {
-                                        Console.WriteLine("You have gone past your overdraft limit. Transaction was not approved.");
+                                        MessageBox.Show("You have gone past your overdraft limit. Transaction was not approved.");
 
                                         string toWrite = fields[0] + "," + fields[1] + "," + fields[2] + "," + fields[3] + "," + fields[4] +
                                                          "," + fields[5] + "," + fields[6] + "," + fields[7] + "," + fields[8] + "," + fields[9] + "," + fields[10] + "," + fields[11] + "\n";
@@ -136,11 +148,13 @@ namespace ATMForm
                         }
                         catch
                         {
-                            Console.WriteLine("Something has gone wrong withdrawing funds into the account. Please contact the bank.");
+                            MessageBox.Show("Something has gone wrong withdrawing funds into the account. Please contact the bank.");
                         }
                     }
                     File.Delete("CUSTOMERS.csv");
                     File.Move("temp.csv", "CUSTOMERS.csv");
+                    MessageBox.Show("Withdraw Complete");
+
                     break;
 
                 //Long account
@@ -167,11 +181,13 @@ namespace ATMForm
                         }
                         catch
                         {
-                            Console.WriteLine("Something has gone wrong withdrawing funds into the account. Please contact the bank.");
+                            MessageBox.Show("Something has gone wrong withdrawing funds into the account. Please contact the bank.");
                         }
                     }
                     File.Delete("CUSTOMERS.csv");
                     File.Move("temp.csv", "CUSTOMERS.csv");
+                    MessageBox.Show("Withdraw Complete");
+
                     break;
             }
         }
@@ -214,6 +230,7 @@ namespace ATMForm
 
                     File.Delete("CUSTOMERS.csv");
                     File.Move("temp.csv", "CUSTOMERS.csv");
+                    MessageBox.Show("Deposit Complete");
                     break;
 
                 case (2): //Current account
@@ -242,13 +259,14 @@ namespace ATMForm
                         }
                         catch
                         {
-                            Console.WriteLine(
+                            MessageBox.Show(
                                 "Something has gone wrong depositing funds into the account. Please contact the bank.");
                         }
                     }
 
                     File.Delete("CUSTOMERS.csv");
                     File.Move("temp.csv", "CUSTOMERS.csv");
+                    MessageBox.Show("Deposit Complete");
                     break;
 
                 case (3): //Long account
@@ -277,13 +295,14 @@ namespace ATMForm
                         }
                         catch
                         {
-                            Console.WriteLine(
+                            MessageBox.Show(
                                 "Something has gone wrong depositing funds into the account. Please contact the bank.");
                         }
                     }
 
                     File.Delete("CUSTOMERS.csv");
                     File.Move("temp.csv", "CUSTOMERS.csv");
+                    MessageBox.Show("Deposit Complete");
                     break;
             }
         }
@@ -298,7 +317,7 @@ namespace ATMForm
             }
             catch
             {
-                Console.WriteLine("An error has occoured while transfering funds. Please ensure there is enough money in the account the complete the transfer.");
+                MessageBox.Show("An error has occoured while transfering funds. Please ensure there is enough money in the account the complete the transfer.");
             }
         }
 
